@@ -1,0 +1,108 @@
+:root {
+  --primary: #455d7a;
+  --error: #f95959;
+}
+
+body {
+  background: #e3e3e3;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background: #233142;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a, nav span {
+  margin-right: 15px;
+}
+
+nav span {
+  color:#e3e3e3;
+}
+
+nav button {
+  background: #f95959;
+  color: #fff;
+  border: 2px solid #f95959;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+nav .options:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+form {
+  border: 1px solid #233142;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+label, input {
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}
